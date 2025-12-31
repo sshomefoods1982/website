@@ -127,3 +127,57 @@ footer a {
     text-decoration: none;
     margin-left: 10px;
 }
+
+/* MOBILE RESPONSIVE */
+@media (max-width: 768px) {
+    header {
+        padding: 20px 15px;
+    }
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header p {
+        font-size: 14px;
+    }
+
+    .whatsapp-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+
+    .menu {
+        padding: 20px 15px;
+    }
+
+    .menu h2 {
+        font-size: 20px;
+    }
+
+    .menu-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card h3 {
+        font-size: 16px;
+    }
+
+    .hot-items {
+        padding: 15px;
+        font-size: 16px;
+    }
+
+    .contact {
+        padding: 30px 15px;
+    }
+
+    footer {
+        padding: 15px;
+    }
+}
